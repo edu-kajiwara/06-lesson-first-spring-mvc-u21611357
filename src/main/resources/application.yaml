@@ -1,6 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3307/mydb
-    username: userfoo
-    password: secret
+    url: jdbc:mysql://localhost:3306/modern_webpg?characterEncoding=utf8
+    username: modern_webpg_05
+    password: password
     driver-class-name: com.mysql.jdbc.Driver
+client:
+  url: http://localhost:63342
